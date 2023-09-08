@@ -1,6 +1,6 @@
 
 .examvenue{
-    grid-area: examvenue;
+    grid-area: main;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
   }
 th,td{
     border: 1px solid white;
-    padding: 10px 40px;
+    padding: 10px 30px;
   }
   .table{
     overflow-x: scroll;

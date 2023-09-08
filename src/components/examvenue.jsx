@@ -9,6 +9,7 @@ function examvenue() {
       <table>
         <tr>
           <th>S.no</th>
+          <th>Exam</th>
           <th>Course code</th>
           <th>Course Name</th>
           <th>Exam Date</th>
@@ -18,6 +19,7 @@ function examvenue() {
         </tr>
         <tr>
           <td>1</td>
+          <td>PT1</td>
           <td>22CS103</td>
           <td>Data Structures 1</td>
           <td>09-09-2023</td>
@@ -27,6 +29,7 @@ function examvenue() {
         </tr>
         <tr>
           <td>2</td>
+          <td>PT1</td>
           <td>22CS103</td>
           <td>Data Structures 1</td>
           <td>09-09-2023</td>
@@ -36,6 +39,7 @@ function examvenue() {
         </tr>
         <tr>
           <td>3</td>
+          <td>PT1</td>
           <td>22CS103</td>
           <td>Data Structures 1</td>
           <td>09-09-2023</td>
@@ -45,6 +49,7 @@ function examvenue() {
         </tr>
         <tr>
           <td>4</td>
+          <td>PT1</td>
           <td>22CS103</td>
           <td>Data Structures 1</td>
           <td>09-09-2023</td>
