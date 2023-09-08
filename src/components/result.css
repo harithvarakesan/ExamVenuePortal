@@ -1,3 +1,50 @@
 .result{
     grid-area: main;
 }
+.sem1{
+   
+    padding: 40px;
+  }
+  .sem2{
+    padding:40px;
+  }
+  th, td {
+    padding: 10px;  
+    text-align: center; 
+    border: 1px solid #ccc; 
+    width: 23%;
+  }
+  .pt1result{
+    padding-left :50px ;
+    padding-top: 20px;
+  }
+  .pt2result{
+    padding-top: 20px;
+    padding-left :50px ;
+    
+  }
+  .sem1result{
+    padding-top: 20px;
+    padding-left :50px ;
+  }
+  .sem2pt1{
+    padding-left :50px ;
+  }
+  .sem2pt2{
+    padding-left :50px ;
+  }
+  .sem2result{
+    padding-left:50px;
+  }
+  .sem1table{
+    margin-top: 20px;
+    margin-left: 70px ;
+  }
+  .pt2table{
+    margin-top: 20px;
+    margin-left: 70px ;
+  }
+  .pt1table{
+    margin-top: 20px;
+    margin-left: 70px ;
+  }
