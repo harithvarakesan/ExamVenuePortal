@@ -20,10 +20,10 @@ function sidebar({openSidebarToggle, OpenSidebar}) {
        <a href=''><li className='sidebar-list-item'>
             <BsEnvelopePaper className='icon' />Result
         </li></a>
-       <a href=''><li className='sidebar-list-item'>
+       <a href='/skillvenue'><li className='sidebar-list-item'>
             <BsBook className='icon' />Skill venue
         </li></a>
-       <a href=''><li className='sidebar-list-item'>
+       <a href='/revaluation'><li className='sidebar-list-item'>
             <BsCashCoin className='icon' />Revaluation
         </li></a>
        <a href=''><li className='sidebar-list-item'>

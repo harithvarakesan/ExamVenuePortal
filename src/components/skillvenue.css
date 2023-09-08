@@ -1,0 +1,42 @@
+
+.skillvenue{
+    grid-area: main;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100vw - 260px);
+  }
+th,td{
+    border: 1px solid white;
+    padding: 10px 30px;
+  }
+  .skilltable{
+    overflow-x: scroll;
+  }
+  table{
+    border-radius: 20px;
+  }
+  th{
+    background-color: rgb(0, 80, 150);
+    border-radius: 20px;
+  }
+  tr:nth-child(odd) {background-color: #ffffff3e;}
+  tr:hover{
+    background-color: #ffffff73;
+  }
+  .skilltable::-webkit-scrollbar{
+    background-color: transparent;
+}
+  @media screen and (max-width: 992px) {
+    .skillvenue {
+        width: 100vw;
+    }
+    
+}
+  
+  @media screen and (max-width: 576px) {
+    .skillvenue {
+      font-size: 12px; 
+    }
+  }
