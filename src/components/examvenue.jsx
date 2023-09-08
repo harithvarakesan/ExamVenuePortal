@@ -5,7 +5,7 @@ function examvenue() {
   return (
     <div className='examvenue'>
       <h2>UPCOMING EXAMS <BsNewspaper /></h2>
-      <div className='table'>
+      <div className='examtable'>
       <table>
         <tr>
           <th>S.no</th>

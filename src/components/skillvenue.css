@@ -7,22 +7,22 @@
     align-items: center;
     width: calc(100vw - 260px);
   }
-th,td{
+.skilltable th,.skilltable td{
     border: 1px solid white;
     padding: 10px 30px;
   }
   .skilltable{
     overflow-x: scroll;
   }
-  table{
+  .skilltable table{
     border-radius: 20px;
   }
-  th{
+  .skilltable th{
     background-color: rgb(0, 80, 150);
     border-radius: 20px;
   }
-  tr:nth-child(odd) {background-color: #ffffff3e;}
-  tr:hover{
+  .skilltable tr:nth-child(odd) {background-color: #ffffff3e;}
+  .skilltable tr:hover{
     background-color: #ffffff73;
   }
   .skilltable::-webkit-scrollbar{
