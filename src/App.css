@@ -1,0 +1,141 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: rgb(8, 0, 34);
+}
+.grid-container{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 260px 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1fr 2fr;
+  grid-template-areas: 
+    'sidebar header header header'
+    'sidebar main main main'
+    'sidebar examvenue examvenue examvenue';
+}
+.header{
+  background-color: rgb(0, 80, 150);
+  grid-area: header;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+
+  box-shadow: 0 6px 7px -3px rgba(248, 162, 162, 0.35);
+}
+.icon{
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.icon_header{
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 26px;
+    margin-right: 5px;
+}
+.icon, .icon_header{
+  margin-right: 5px;
+}
+ 
+.menu-icon{
+  display: none;
+}
+#sidebar{
+    grid-area: sidebar;
+    background-color: rgb(0, 0, 57);
+    overflow-y: auto;
+    transition: all .5s;
+    -webkit-transition: all 0.5s;
+    height: 100vh;
+    width: 260px;
+  }
+  .close_icon{
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+.sidebar-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px 0px 30px;
+    margin-bottom: 30px;
+}
+.sidebar-title > span{
+    display: none;
+}
+.sidebar-brand{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.sidebar-list-item{
+    padding: 20px;
+    font-size: 18px;
+    list-style: none;
+}
+.sidebar-list-item:hover{
+    background-color: rgba(255,255,255,0.2);
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.sidebar-responsive {
+    display: inline !important;
+    position: absolute;
+    z-index: 12 !important;
+  }
+@media screen and (max-width: 992px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas:
+      'header'
+      'main'
+      'examvenue';
+  }
+
+  #sidebar {
+    display: none;
+  }
+
+  .menu-icon {
+    display: inline;
+  }
+
+  .sidebar-title > span {
+    display: inline;
+  }
+}
+/* Small <= 768px */
+  
+@media screen and (max-width: 768px) {
+  .main-cards {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 0;
+  }
+
+  .charts {
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .header-left {
+    display: none;
+  }
+}
+
+.home{
+  grid-area: main;
+}
