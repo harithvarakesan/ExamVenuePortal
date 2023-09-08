@@ -17,7 +17,7 @@ function sidebar({openSidebarToggle, OpenSidebar}) {
        <a href='/examvenue'><li className='sidebar-list-item'>
             <BsPen className='icon' />Exam Venue
         </li></a>
-       <a href=''><li className='sidebar-list-item'>
+       <a href='/result'><li className='sidebar-list-item'>
             <BsEnvelopePaper className='icon' />Result
         </li></a>
        <a href='/skillvenue'><li className='sidebar-list-item'>

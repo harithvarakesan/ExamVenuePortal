@@ -6,6 +6,7 @@ import Sidebar from './components/Sidebar'
 import Examvenue from './components/examvenue'
 import Skillvenue from './components/skillvenue'
 import Revaluation from './components/revaluation'
+import Result from './components/result'
 import { BrowserRouter as Main,Route,Routes } from 'react-router-dom'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route exact path='/examvenue' element={<Examvenue />} />
         <Route exact path='/skillvenue' element={<Skillvenue />} />
         <Route exact path='/revaluation' element={<Revaluation />} />
+        <Route exact path='/result' element={<Result />} />
       </Routes>
       </Main>
     </div>
