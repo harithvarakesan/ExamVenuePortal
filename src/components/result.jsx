@@ -82,7 +82,7 @@ function result() {
   <summary>SEMESTER 2</summary>
   <details>
     <summary class="sem2pt1">PT 1 RESULT</summary>
-    <table border="1" className="sem2pt1">
+    <table border="1" className="sem2pt11">
         <thead>
             <tr>
                 <th>MATHEMATICS II</th>
@@ -105,7 +105,7 @@ function result() {
     </details>
     <details>
       <summary class="sem2pt2">PT 2 RESULT</summary>
-      <table border="1">
+      <table border="1" className='sem2pt22'>
         <thead>
             <tr>
             <th>MATHEMATICS II</th>
@@ -128,7 +128,7 @@ function result() {
   </details>
   <details>
     <summary class="sem2result">SEMESTER 2 RESULT</summary>
-    <table border="1">
+    <table border="1" className='sem2sem2'>
         <thead>
             <tr>
             <th>MATHEMATICS II</th>

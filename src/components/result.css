@@ -6,9 +6,9 @@
     padding: 40px;
   }
   .sem2{
-    padding:40px;
+    padding-left:40px;
   }
-  th, td {
+  .result th,.result td {
     padding: 10px;  
     text-align: center; 
     border: 1px solid #ccc; 
@@ -28,13 +28,19 @@
     padding-left :50px ;
   }
   .sem2pt1{
-    padding-left :50px ;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .sem2pt2{
     padding-left :50px ;
+    padding-top: 20px;
+    padding-bottom:20px;
   }
   .sem2result{
     padding-left:50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
   }
   .sem1table{
     margin-top: 20px;
@@ -47,4 +53,15 @@
   .pt1table{
     margin-top: 20px;
     margin-left: 70px ;
+  }
+  .sem2pt11{
+   
+    margin-left: 70px;
+    
+  }
+  .sem2pt22{
+    margin-left: 70px;
+  }
+  .sem2sem2{
+    margin-left: 70px;
   }
