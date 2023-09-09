@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import './App.css'
-import Home from './components//Home'
+import Home from './components/Home'
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
 import Examvenue from './components/examvenue'
@@ -21,7 +21,7 @@ function App() {
       <Main>
       <Header OpenSidebar={OpenSidebar}/>
       <Sidebar openSidebarToggle={openSidebarToggle} OpenSidebar={OpenSidebar}/>
-      <Home />
+      
       <Routes>
         <Route exact path='/examvenue' element={<Examvenue />} />
         <Route exact path='/skillvenue' element={<Skillvenue />} />

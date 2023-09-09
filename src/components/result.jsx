@@ -1,7 +1,10 @@
 import React from 'react'
 import './result.css'
+import Home from './Home'
 function result() {
   return (
+    <div>
+        <Home />
     <div className='result'>
       <div className="sem1">
     <details>
@@ -151,6 +154,7 @@ function result() {
   </details>
 </details>
 </div>
+    </div>
     </div>
   )
 }

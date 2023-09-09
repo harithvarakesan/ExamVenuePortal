@@ -1,8 +1,11 @@
 import React from 'react'
 import './examvenue.css'
+import Home from './Home'
 import { BsNewspaper,BsDownload } from 'react-icons/bs'
 function examvenue() {
   return (
+    <div>
+      <Home />
     <div className='examvenue'>
       <h2>UPCOMING EXAMS <BsNewspaper /></h2>
       <div className='examtable'>
@@ -60,6 +63,7 @@ function examvenue() {
       </table>
       </div>
       <button onClick={window.print}><BsDownload />Hallticket</button>
+    </div>
     </div>
   )
 }

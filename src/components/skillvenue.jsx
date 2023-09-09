@@ -1,8 +1,11 @@
 import React from 'react'
 import './skillvenue.css'
+import Home from './Home'
 import { BsNewspaper,BsDownload } from 'react-icons/bs'
 function examvenue() {
   return (
+    <div>
+      <Home />
     <div className='skillvenue'>
       <h2>Semester Schedule <BsNewspaper /></h2>
       <div className='skilltable'>
@@ -44,6 +47,7 @@ function examvenue() {
         </tr>
       </table>
       </div>
+    </div>
     </div>
   )
 }
