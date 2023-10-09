@@ -7,23 +7,35 @@ function revaluation() {
       <Home />
       <div className='revaluation'>
         <h1>REVALUATION</h1>
-        <form>
-          <label>SEMESTER : </label>
-          <input placeholder='Semester'></input><br />
-          <label >COURSE CODE : </label>
-          <input placeholder='Course code'></input><br />
-          <label>COURSE TITLE : </label>
-          <input placeholder='Course Title'></input><br />
-          <label>GRADE AWARDED : </label>
-          <input placeholder='Grade'></input><br />
-          <label>RESULT : </label>
-          <select>
-            <option value="-select-">-select-</option>
-            <option value="Pass">Pass</option>
-            <option value="RA">RA</option>
-          </select><br />
+          <table>
+            <tr>
+              <td><label>SEMESTER : </label></td>
+              <td><input placeholder='Semester'></input><br /></td>
+            </tr>
+            <tr>
+              <td><label >COURSE CODE : </label></td>
+              <td><input placeholder='Course code'></input><br /></td>
+            </tr>
+            <tr>
+              <td><label>COURSE TITLE : </label></td>
+              <td><input placeholder='Course Title'></input><br /></td>
+            </tr>
+            <tr>
+              <td><label>GRADE AWARDED : </label></td>
+              <td><input placeholder='Grade'></input><br /></td>
+            </tr>
+            <tr>
+              <td><label>RESULT : </label></td>
+              <td>
+                <select>
+                  <option value="-select-">-select-</option>
+                  <option value="Pass">Pass</option>
+                  <option value="RA">RA</option>
+                </select><br />
+              </td>
+            </tr>
           <button type='submit'>payment</button>
-        </form>
+          </table>
       </div>
     </div>
   )
