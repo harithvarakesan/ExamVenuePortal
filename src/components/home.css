@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 75vh;
+    width: 85vw;
+}
+
+.App{
+    margin-top: -150px;
+    margin-right: 100px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    padding-top: 1px;
+    text-align: justify;
+    background-color: rgb(60, 58, 214);
+    max-width: fit-content;
+    border-radius: 30px;
+    box-shadow: 200px white;
+}
+
+.ptext{
+    color: white;
+    text-shadow: 5px 5px 3px #000000;
+    border-radius: 30px;
+    padding-left: 250px;
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    row-gap: 200px;
+}
+
+img{
+    float: left;
+    margin-left: -250px;
+    height: 250px;
+    width: 230px;
+    border-radius: 500px;
+    border-color: black;
+    border-style: groove;
+    filter: drop-shadow( 0 0 0.40rem black);
+}

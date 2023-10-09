@@ -1,8 +1,8 @@
 .result{
     grid-area: main;
+    margin-top: -200px;
 }
 .sem1{
-   
     padding: 40px;
   }
   .sem2{
