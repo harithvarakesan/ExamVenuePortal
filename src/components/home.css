@@ -2,13 +2,11 @@
     display: flex;
     justify-content:center;
     align-items:center;
-    height: 75vh;
     width: 85vw;
 }
 
 .App{
-    margin-top: -150px;
-    margin-right: 100px;
+    margin: 50px;
     border: 1px solid #ccc;
     padding: 10px;
     padding-top: 1px;
