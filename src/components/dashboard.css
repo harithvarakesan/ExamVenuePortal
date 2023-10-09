@@ -1,0 +1,9 @@
+.dashboard{
+    grid-area: main;
+}
+.cgpa{
+    display: inline-block;
+}
+.attendance{
+    display: inline-block;
+}
