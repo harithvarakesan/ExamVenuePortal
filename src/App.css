@@ -7,12 +7,12 @@ body{
 .grid-container{
   height: 100vh;
   display: grid;
-  grid-template-columns: 260px 1fr 1fr 1fr;
+  grid-template-columns: 260px 10fr;
   grid-template-rows: 0.2fr 1fr 2fr;
   grid-template-areas: 
-    'sidebar header header header'
-    'sidebar dash dash dash'
-    'sidebar main main main';
+    'sidebar header'
+    'sidebar dash'
+    'sidebar main';
 }
 .header{
   background-color: rgb(0, 80, 150);

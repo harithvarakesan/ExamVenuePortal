@@ -7,6 +7,7 @@ import Examvenue from './components/examvenue'
 import Skillvenue from './components/skillvenue'
 import Revaluation from './components/revaluation'
 import Result from './components/result'
+import Dashboard from './components/Dashboard'
 import { BrowserRouter as Main,Route,Routes } from 'react-router-dom'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Sidebar openSidebarToggle={openSidebarToggle} OpenSidebar={OpenSidebar}/>
       
       <Routes>
+        <Route exact path='/' element={<Dashboard />} />
         <Route exact path='/examvenue' element={<Examvenue />} />
         <Route exact path='/skillvenue' element={<Skillvenue />} />
         <Route exact path='/revaluation' element={<Revaluation />} />
