@@ -1,6 +1,5 @@
 import React from 'react'
-import { BsXCircleFill
-    ,BsNewspaper,BsPen,BsEnvelopePaper,BsBook,BsCashCoin,BsTelephone,BsHouse,BsFire } from 'react-icons/bs'
+import { BsXCircleFill,BsNewspaper,BsPen,BsEnvelopePaper,BsBook,BsCashCoin,BsTelephone,BsHouse,BsFire } from 'react-icons/bs'
 function sidebar({openSidebarToggle, OpenSidebar}) {
   return (
     <div id="sidebar" className={openSidebarToggle ? "sidebar-responsive": ""}>
